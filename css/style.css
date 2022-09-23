@@ -133,12 +133,27 @@ img {
  @media (max-width:768px){
   .container{
     width:780px;
+    
   }
  }
 
 
  @media (max-width:480px){
+  .container{
+    width: 480px;
+  }
 
+  .container .row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: ;
+  }
+
+  .steps .col{
+    
+  }
 
 
 }
