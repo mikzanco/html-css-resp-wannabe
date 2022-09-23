@@ -142,12 +142,18 @@ img {
   .container{
     width: 100%;
   }
+  
 
   .container .row{
     flex-direction: column;
     justify-content: center;
     align-items: center;
   
+  }
+
+  .lessons .col{
+    width: 80%;
+    margin: 10% 0;
   }
 
   .container h2{
@@ -159,9 +165,9 @@ img {
     margin: 10% 0;
   }
 
-  .col-right{
-    display: flex;
-    width: 85%;
-    justify-content: ;
+  .why-us .col{
+    width: 80%;
+    margin: 10% 0;
+    
   }
 }
