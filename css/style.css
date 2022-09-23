@@ -128,7 +128,11 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
+@media (max-width:1160px){
+  .container{
+    width: 100%;
+  }
+}
 
  @media (max-width:768px){
   .container{
@@ -166,7 +170,7 @@ img {
 
   .why-us .col{
     width: 80%;
-    margin: 10% 0;
+    margin: 10% 0 0 10%;
     
   }
 }
