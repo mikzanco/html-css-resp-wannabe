@@ -150,9 +150,18 @@ img {
   
   }
 
-  .steps .col{
-    
+  .container h2{
+    margin-bottom: 0;
   }
 
+  .steps .col{
+    width: 80%;
+    margin: 10% 0;
+  }
 
+  .col-right{
+    display: flex;
+    width: 85%;
+    justify-content: ;
+  }
 }
